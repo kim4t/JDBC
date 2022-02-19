@@ -9,7 +9,7 @@ import java.util.List;
 public class PostService {
     private String url = "jdbc:mysql://localhost:3306/test";
     private String root = "root";
-    private String password = "xogh7149@@";
+    private String password = "password";
 
     public List<Post> getList() throws SQLException {
         Connection con = DriverManager.getConnection(url,root,password);
